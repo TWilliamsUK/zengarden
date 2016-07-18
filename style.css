@@ -572,6 +572,15 @@ aside {
     -webkit-transition: all 1s ease; /* Chrome, Safari, Opera */
     transition: all 1s ease; 
   }
+
+  aside:hover:after {
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -ms-transform-origin: 50%; /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 50%; /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+    transform-origin: 50%;
+  }
 }
 
 @media (min-width: 94em) {
