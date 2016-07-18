@@ -218,6 +218,19 @@ header abbr {
   color: #1b1b21;
 }
 
+.requirements p:last-of-type a {
+  color: #1b1b21;
+  padding: .2em .6em;
+  background: #f9f2e0;
+  border-bottom: none;
+}
+
+.requirements p:last-of-type a:hover {
+  background: #1b1b21;
+  color: #f9f2e0;
+  border-bottom: none;
+}
+
 .benefits {
   background: #2dc1ab;
   padding: 4em 6%;
